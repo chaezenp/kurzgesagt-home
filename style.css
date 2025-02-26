@@ -1,0 +1,86 @@
+.nav-link {
+    color: black;
+}
+
+.cust-brdR {
+    border-right: 2px solid black;
+    height: 100%;
+    display: flex;
+    align-items: stretch;
+}
+
+.cust-brdL {
+    border-left: 2px solid black;
+    height: 100%;
+    display: flex;
+    align-items: stretch;
+}
+
+.grad-background {
+    font-size: 10rem; 
+    background: 
+    url('rocket.svg'),
+    url('rocket.svg'),
+    url('earth.svg'),
+    url('stars-big.svg'), 
+    url('stars-small.svg'),
+    url('background.svg');
+    background-size: 20% auto, 15% auto, 60% auto, 70% auto, auto, cover;
+    background-position: right bottom calc(100% - 500px), right calc(100% - 1200px) bottom calc(100% - 750px), right calc(100% - 1000px) bottom calc(100% - 500px), left center, center, center;
+    background-attachment: fixed, fixed, fixed, fixed, fixed, fixed;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+    height: 100vh;
+    color: white;
+}
+
+.grad-background #top-text-pic {
+    word-spacing: 2em;
+}
+
+.grad-background #bottom-text-pic {
+    text-align: right;
+    padding-right: 170px;
+}
+
+.grad-background #bottom-text-pic2 {
+    font-size: 1.2rem;
+    max-width: 800px;
+    
+}
+
+.middle-page {
+    font-size: 10rem;
+}
+
+.Videos {
+    background-color: blue;
+    color: white;
+}
+
+.Products {
+    background-color: blueviolet;
+    color: white;
+}
+
+.Interactive {
+    background-color: plum;
+    color: white;
+}
+
+button {
+    width: 250px;  
+    height: auto;  
+    font-size: 25px !important;
+    align-content: center;
+  }
+
+footer {
+    background-color: rgb(17, 27, 59);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: none;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
